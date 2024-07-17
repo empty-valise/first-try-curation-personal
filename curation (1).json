@@ -1,0 +1,35 @@
+{
+	"@context": [
+		"http://iiif.io/api/presentation/2/context.json",
+		"http://codh.rois.ac.jp/iiif/curation/1/context.json"
+	],
+	"@type": "cr:Curation",
+	"@id": "http://example.org/iiif/curation/curation.json",
+	"label": "Curating list",
+	"selections": [
+		{
+			"@id": "https://cudl.lib.cam.ac.uk//iiif/MS-ADD-09597-00006-00002/range/r1",
+			"@type": "sc:Range",
+			"label": "Manual curation by IIIF Curation Viewer",
+			"members": [
+				{
+					"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-09597-00006-00002/canvas/16#xywh=1936,2247,584,648",
+					"@type": "sc:Canvas",
+					"label": "104",
+					"description": ""
+				},
+				{
+					"@id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-09597-00006-00002/canvas/30#xywh=1176,2295,472,488",
+					"@type": "sc:Canvas",
+					"label": "118",
+					"description": ""
+				}
+			],
+			"within": {
+				"@id": "https://cudl.lib.cam.ac.uk//iiif/MS-ADD-09597-00006-00002",
+				"@type": "sc:Manifest",
+				"label": "David Gregory's Astronomy (Part II) (MS Add.9597/6/2)"
+			}
+		}
+	]
+}
